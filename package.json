@@ -1,0 +1,21 @@
+{
+  "name": "react-native-hito-sdk",
+  "version": "1.0.0",
+  "description": "SDK for integrate hito wallet into your applicarion",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hito",
+    "wallet"
+  ],
+  "author": "hito",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-native": "^0.74.3",
+    "react-native-camera": "^4.2.1",
+    "react-native-hito-driver": "git+https://github.com/olegMarin/react-native-hito-driver.git"
+  }
+}
